@@ -1,0 +1,30 @@
+{% extends "surveyapp/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+
+
+<b><p style="color:#97BAEC">Estudio de las Visiones sobre la Sociedad, el Gobierno y los Impuestos</p></b>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+
+<p>Somos un par de académicos de El Centro de Estudios Económicos de El Colegio de México. Nuestro objetivo es entender cuáles son las visiones de las y los mexicanos sobre la justicia, el gobierno, la desigualdad y los impuestos. Al completar esta encuesta, de manera completamente anónima, estará contribuyendo a nuestro conocimiento como sociedad.</p>
+
+<p>El factor más importante de esta investigación es que <b>sus respuestas sean completamente honestas</b>. Cada vez que no sepa la respuesta a una pregunta, solo haga la mejor conjetura que se le ocurra.</p>
+
+<p>Es muy importante para el éxito de nuestro proyecto que <b>complete el cuestionario hasta el final</b>, una vez que haya empezado. La encuesta toma cinco minutos, en promedio, para contestarse.</p>
+
+
+A CONTINUACIÓN DEBE CONFIRMAR SER UN RESIDENTE DE MÉXICO Y SER MAYOR DE EDAD PARA PARTICIPAR EN NUESTRO ESTUDIO:
+<hr>
+    {% formfield player.participa%}
+
+
+
+<button class="otree-btn-next btn btn-primary">Siguiente</button>
+{% endblock %}
