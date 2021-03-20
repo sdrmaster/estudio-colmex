@@ -1,3 +1,5 @@
-# Experimento Aleatorizado Controlado
+# Randomized Survey Experiment (Mexico)
 
-En este Repositorio encontrarás una versión de una app que realiza intervenciones aleatorias y que tiene como objetivo estudiar la formación del gusto por la redistribución de las y los mexicanos.
+We analyze randomized online survey experiments providing interactive treatments on Mexico public safety, corruption and public health. This app examines how certain institutional designs affect political and quantitative support for tax reforms. App built using Python and HTML.
+
+- Samuel D. Restrepo.
