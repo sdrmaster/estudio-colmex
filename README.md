@@ -6,4 +6,4 @@ I analyze randomized online survey experiments providing messages on Mexico's pu
 
 - Samuel D. Restrepo. 
 
-Contact: samuel.restrepo@undp.org
+
